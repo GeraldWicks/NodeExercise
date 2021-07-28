@@ -25,7 +25,16 @@ purpose of record all the group content in a array of string.<br/>
    # function storeCsvFileTocsvData
    -> It edit the Data properly<br/>
    -> Check if has some equal eid<br/>
-   -> Save the csvDta into a json file<br/>
+   -> Save the csvData into a json file<br/>
+
+   # function saveJSON
+   it creates a json file, from the variable<br/>
+
+   # function checkEqualEid
+   Check if has some element with same eid,<br/>
+   if has, then mix the two objects into one, and <br/>
+   delete one of the objects.<br/>
+ 
 
    # function editData
    Loop through all the csvData, and throuch all the tags<br/>
