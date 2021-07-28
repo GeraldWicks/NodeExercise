@@ -8,7 +8,7 @@ csv-parser : CSV -> Parser
 
 
 ### Constants:
-csvFilepath : stores the csv file Path
+csvFilepath : stores the csv file Path.
 jsonFilepath : stores the json file path (where will be stored) 
 csvData : It is the array where is stored all information from the csv file
 groupNumbers : Stores the positions of the group tags
